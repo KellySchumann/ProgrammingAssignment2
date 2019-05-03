@@ -1,5 +1,5 @@
 ## Put comments here that give an overall description of what your
-## functions do
+## functions do here
 
 ## Write a short comment describing this function
 
@@ -28,10 +28,10 @@ cacheSolve <- function(x, ...) {
                 return(iv)
         }
         data <- x$get()
-	  # Create the inverse here
+        # Create the inverse here
         iv <- solve(data, ...)
-
-	  # update the inverse variable
+        
+        # update the inverse variable
         x$setinverse(iv)
         iv
 }
